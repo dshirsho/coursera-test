@@ -16,7 +16,7 @@ body{
 			}
     .box {
         background-color: #ffb8e6;
-        border: 1px solid black;
+        border: 2px solid black;
         margin-bottom: 20px;
         overflow: auto;
         font-family: Garamond sans-serif;
@@ -24,7 +24,7 @@ body{
 	}
 	.inbox {
 		background-color: red;
-        border: 0px;
+        border: 0.5px solid black;
         margin: 0px 0px 20px 0px;
         overflow: auto;
         align-items: center;
