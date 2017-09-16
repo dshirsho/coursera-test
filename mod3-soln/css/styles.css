@@ -1,0 +1,124 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: white;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+/****HEADER DESIGN START****/
+#header-nav{ /*Navigation Bar*/
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+	position: relative;
+	padding-bottom: 1px;
+}
+
+.navbar-brand{ /*Navigation Bar*/
+	padding: 10px;
+}
+
+.navbar-brand h1{ /*Restaurant Name*/
+	font-family: serif;
+	color: #557c3e;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{ /*Restaurant Name*/
+	text-decoration: none;
+}
+
+#nav-list{ /*Opened Menu*/
+	margin-top: 10px;
+	margin-bottom: 5px;
+	padding-bottom: 0;
+
+}
+
+#nav-list a{ /*Text in Opened Menu*/
+	color: black;
+	text-align: center;
+	background-color: #99ff99;
+	padding-bottom: 5px;
+}
+
+#nav-list a:hover{ /*Text in Opened Menu while Hovering*/
+	background: #e7e7e7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{ /*Menu Button*/
+	border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -20px;
+}
+/****HEADER DESIGN END****/
+
+/****MAIN BODY DESIGN START****/
+#mainheading{
+		font-family: Helvetica, serif;
+		font-size: 30px;
+		color: #fb3208;
+		margin-bottom: 70px;
+		text-align: center;
+			}
+.box{
+  background-color: #ffcc99;
+  border: 1px solid black;
+  padding: 0px;
+  height: 1000px;
+  overflow: hidden;
+  margin: 0px 15px 20px 15px;
+}
+
+p{
+  padding: 30px 10px 10px 10px;
+  color: black;
+  text-align: justify;
+}
+
+#chicken{
+  background-color: magenta;
+  width: 100%;
+  text-align: center;
+  border: 1px solid black;
+  font-size: 125%;
+  margin: 0px 0px 0px 0px;
+  padding-top: 0;
+
+}
+
+/***********MEDIA QUERIES***********/
+@media(min-width: 1200px){ /*Large Devices (lg)*/
+    .navbar-brand{ /*Navigation Bar*/
+	padding-bottom: 20px;
+}
+}
+
+@media(min-width: 992px) and (max-width: 1199px){ /*Medium Devices (md)*/ 
+
+.navbar-brand{ /*Navigation Bar*/
+	padding-bottom: 20px;
+}
+}
+
+@media(min-width: 768px) and (max-width: 991px){ /*Small Devices (sm)*/
+    .navbar-brand{ /*Navigation Bar*/
+	padding-bottom: 20px;
+}
+}
+
+@media(max-width: 767px){ /*Extra-small Devices (xs)*/
+	.navbar-brand{ /*Navigation Bar*/
+	padding-bottom: 20px;
+}
+}
+
